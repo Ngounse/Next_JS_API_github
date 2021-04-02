@@ -13,13 +13,13 @@ app.prepare()
             app.render(req,res,`/DynamicPage/?username=${username}`,{username:req.params.username})
       })
       
-      server.get('/ninjas/index',(req,res) => {
-            app.render(req,res,`/ninjas/index`,{ninjas:req.params.ninjas})
-      })
+      // server.get('/ninjas/index',(req,res) => {
+      //       app.render(req,res,`/ninjas/index`,{ninjas:req.params.ninjas})
+      // })
 
-      server.get('/github/:username/repo',(req,res) => {
-            app.render(req,res,`/github/${username}/repo`,{username:req.params.username})
-      })
+      // server.get('/github/:username/repo',(req,res) => {
+      //       app.render(req,res,`/github/${username}/repo`,{username:req.params.username})
+      // })
 
       // server.get('/github:username/follwing',(req,res) => {
       //       app.render(req,res,`/github/?username=${username}/follwing`,{username:req.params.username})
@@ -28,8 +28,6 @@ app.prepare()
       // server.get('/github:username/follwer',(req,res) => {
       //       app.render(req,res,`/github/?username=${username}/follwer`,{username:req.params.username})
       // })
-
-      
 
       // server.get('/posts/:query',(req,res) => {
       //       app.render(req,res,`/posts/?q=${query}`,{query:req.params.queryquery})
