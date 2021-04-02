@@ -1,0 +1,21 @@
+.single {
+      /* padding: 2px 16px; */
+      padding: 1px 55px;
+      background: #fff;
+      display: flex;
+      /* margin: 20px 10px; */
+      border-left: 8px solid #fff;
+      text-decoration: auto;
+
+}
+.single h3 {
+      color: black;
+}
+
+.single a {
+      color: black;
+}
+
+.single:hover {
+      border-left: 8px solid #4979ff;
+}

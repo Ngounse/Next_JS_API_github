@@ -1,0 +1,36 @@
+
+.container{
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+      justify-content:space-between ;
+      background-color:rgba(31, 30, 30, 0.87);
+      padding-left: 1em;
+      color: white;
+}
+
+.container ul{
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+}
+
+.container ul li{
+      margin-right: 1em;
+}
+.container ul li:hover{
+      padding: 0.8em;
+      background-color:white
+}
+
+.container ul li a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-weight: bold;
+}
+.container ul li a:hover {
+      color:black
+
+}
+
