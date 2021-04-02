@@ -5,7 +5,7 @@ import Style from './style.module.css'
 const index=()=>{
       return(
             <div className={Style.container}>
-                  <h1> Github</h1>
+                  <h1> GITHUB PROJECT</h1>
             </div>
       )
 }
