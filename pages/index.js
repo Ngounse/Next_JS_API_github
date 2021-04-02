@@ -18,7 +18,7 @@ const IndexPage = ({}) => {
         <meta name="keyword" contain="nextjs"></meta>
       </Head>
       <div>
-        <p>This is index page?</p>
+        <h4>Enter github username</h4>
           <input className="inputr"
           type="text" 
           placeholder="Input username"

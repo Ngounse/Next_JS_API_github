@@ -6,10 +6,8 @@ const pageNotfound = () => {
 const router = useRouter()
       useEffect(()=>{
             setTimeout(()=>{
-                  // this will back by 1
-                  // router.go(-1)
                   // this will go to index 
-                  // router.push('/')
+                  router.push('/')
             },5000)
       },[])
 
